@@ -24,7 +24,4 @@ var car = {
 			car.isTurnedOn = false
 		}
 	},
-	fly: function () {
-		alert('something');
-	}
 };
