@@ -23,5 +23,8 @@ var car = {
 		} else {
 			car.isTurnedOn = false
 		}
+	},
+	fly: function () {
+		alert('do not do that')
 	}
 };
