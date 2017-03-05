@@ -25,6 +25,6 @@ var car = {
 		}
 	},
 	fly: function () {
-		alert('fly');
+		alert('something');
 	}
 };
