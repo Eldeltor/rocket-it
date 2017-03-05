@@ -20,6 +20,14 @@
 		},
 		turnOff: function () {
 			car.isTurnedOn = false;
+		},
+		switchCar: function (isOn){
+			console.log ('turn car ' +isOn);
+			if (isOn == true) {
+				car.isTurnedOn = true
+			} else {
+				car.isTurnedOn = false
+			}
 		}
 	};
 	console.log('hello there friends!');
