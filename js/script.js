@@ -1,3 +1,13 @@
+var doCoolStuff = function () {
+	var currentClassName = document.getElementById('cool').className;
+	//changing class name
+	if (currentClassName == 'cool') {
+		document.getElementById('cool').className = 'cool red';
+	} else {
+		document.getElementById('cool').className = 'cool';
+	}
+}
+
 var car = {
 	make: 'BMW',
 	type: 'M3',
@@ -10,12 +20,16 @@ var car = {
 		'seat 3',
 		'seat 4'
 	],
+	fly: function () {
+		alert('fly');
+	},
 	turnOn: function () {
 		car.isTurnedOn = true;
 	},
 	turnOff: function () {
 		car.isTurnedOn = false;
 	},
+	//changing car state
 	switchCar: function (isOn){
 		console.log ('turn car ' +isOn);
 		if (isOn == true) {
