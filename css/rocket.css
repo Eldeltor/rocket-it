@@ -29,12 +29,26 @@
 	position: absolute;
 	left: 50%;
 	bottom: 20px;
-	width: 20px;
-	height: 100px;
-	background-color: blue;
+	margin-left: -50px;
+	width: 137px;
+	height: 268px;
+	background: url(../img/Cohete.png) no-repeat 0 0;
 	transition: bottom 10s;
 }
 
+/* rocket bg image */
+body.body-state2 .rocket{
+	background-image: url(../img/Cohete2.gif);
+}
+body.body-state3 .rocket,
+body.body-state4 .rocket{
+	background-image: url(../img/Cohete3.gif);
+}
+body.body-state5 .rocket{
+	
+}
+
+/* function */
 body.body-state1 .rocket{
 	transition: 1s;
 }
