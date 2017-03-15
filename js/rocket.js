@@ -25,7 +25,7 @@ var changeState = function (state) {
 			console.log('randomNumber:',randomNumber)
 
 			// success
-			if (randomNumber > 10) {
+			if (randomNumber > 5) {
 				changeState(4)
 			}
 			//failure 
