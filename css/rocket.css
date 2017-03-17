@@ -7,6 +7,20 @@
 	left: 0;
 }
 
+a.button{
+	background: url(../img/Boton.png) no-repeat center center;
+	height: 198px;
+	width: 198px;
+	position: absolute;
+	bottom: 45%;
+	left: 35%;
+}
+
+.interface{
+	text-align: center;
+	padding: 10%;
+}
+
 .right{
 	background-color: #010138;
 	position: fixed;
@@ -27,13 +41,13 @@
 
 .rocket{
 	position: absolute;
-	left: 50%;
+	left: 345px;
 	bottom: 20px;
 	margin-left: 40px;
 	width: 137px;
 	height: 275px;
 	background: url(../img/Cohete.png) no-repeat 0 0;
-	transition: bottom 10s;
+	transition: bottom 20s;
 }
 
 /* rocket bg image */
@@ -59,7 +73,7 @@ body.body-state1 .rocket{
 
 body.body-state3 .rocket,
 body.body-state4 .rocket{
-	bottom: 1000px;
+	bottom: 5000px;
 }
 
 .state1,
@@ -77,9 +91,5 @@ body.body-state4 .state4{display: block;}
 body.body-state5 .state5{display: block;}
 
 a{
-
-}
-
-a.button{
 
 }
