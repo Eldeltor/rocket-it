@@ -3,14 +3,24 @@ body {
 }
 
 .cool{
+	margin-left: 565px;
+	text-align: center;
 	visibility: hidden;
-	width: 100px;
+	width: 200px;
 	height: 100px;
-	background-color: green;
+	padding-top: 50px;
+	background-color: white;
 	transition: background-color 5s;
 }
 
 .cool.red{
 	visibility: visible;
-	background-color: red;
+	background-color: black;
+}
+
+.interface{
+	color: black;
+	text-align: center;
+	padding: 10%;
+	text-decoration: none;
 }
