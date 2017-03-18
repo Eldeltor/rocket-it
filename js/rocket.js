@@ -13,12 +13,12 @@ var changeState = function (state) {
 			countdownNumber = countdownNumber -1;
 			document.getElementById('countdown').innerHTML = countdownNumber;
 			
-			if (countdownNumber <=-1) {
+		if (countdownNumber <=-1) {
 			changeState(3);
 			};
 		}, 1000);
-	//success or failure
-	} else if (state == 3) {
+		//success or failure
+		} else if (state == 3) {
 		var success = setTimeout(function (){
 			var randomNumber = Math.round (Math.random ()*10);
 
